@@ -14,7 +14,7 @@ class _UsuarioApi implements UsuarioApi {
     this.baseUrl,
     this.errorLogger,
   }) {
-    baseUrl ??= 'http://172.22.2.1:8080';
+    baseUrl ??= 'http://172.22.2.6:8080';
   }
 
   final Dio _dio;
